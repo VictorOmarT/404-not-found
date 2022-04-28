@@ -1,0 +1,17 @@
+
+
+@media screen and (max-width:426px) {
+    body {
+        display: flex;
+        
+    }
+    h1 {
+        display: flex;
+        width: 133px;
+        height: 25px;
+        top: 20px;
+        left: 24px;
+    }
+
+
+}

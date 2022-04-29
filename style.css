@@ -1,17 +1,78 @@
-
-
 @media screen and (max-width:426px) {
-    body {
-        display: flex;
-        
-    }
+
     h1 {
-        display: flex;
-        width: 133px;
+        width: 300px;
         height: 25px;
-        top: 20px;
         left: 24px;
+        top: 20px;
+
+        font-family: 'Inconsolata';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 25px;
+        letter-spacing: -0.08em;
+        text-transform: uppercase;
     }
 
+    img {
+        width: 286.83px;
+        left: 11.73%;
+        right: 11.78%;
+        top: 11.49;
+        bottom: 65.44;
+    }
 
+    h2 {
+
+        width: 350px;
+        height: 142px;
+        left: 24px;
+        top: 407px;
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+    }
+
+    .page-text {
+        width: 328px;
+        height: 81px;
+        left: 23px;
+        top: 579px;
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: -0.035em;
+
+    }
+
+    button {
+        width: 216px;
+        height: 68px;
+        left: 24px;
+        top: 726px;
+        background: #333333;
+    }
+
+    footer,
+    p, a {
+        width: 287px;
+        height: 17px;
+        left: 46px;
+        top: 908px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #BDBDBD;
+    }
 }

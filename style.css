@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+main {
+    height: 90vw;
+}
+
 
 h1 {
     width: 300px;
@@ -22,11 +26,7 @@ h1 {
 }
 
 img {
-    width: 286.83px;
-    left: 11.73%;
-    right: 11.78%;
-    top: 11.49;
-    bottom: 65.44;
+    width: 25vh;
 }
 
 h2 {
@@ -90,13 +90,14 @@ a {
 @media screen and (min-width: 768px) {
 
     main{
-		margin-left: 5%;
-		flex-direction: column;
-		align-items: center;
+        display:flex;
+		margin-left: 1%;
+		flex-direction: row;
+        background-color: #333333;
+        margin-top: 10em;
 	}
-    img {
-        width: 539px;
-        height: 447px;
-        top: 265px;
+
+    .content{
+        width: 40vh;
     }
 }
